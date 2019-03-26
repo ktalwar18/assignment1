@@ -1,8 +1,5 @@
-<!-- Create a PHP script which displays the capital and country name from the above array $ceu. Sort the list by the capital of the country. -->
-
 <?php
-
-  $ceu = array( "Italy"=>"Rome", "Luxembourg"=>"Luxembourg",
+$ceu = array( "Italy"=>"Rome", "Luxembourg"=>"Luxembourg",
                 "Belgium"=> "Brussels", "Denmark"=>"Copenhagen",
                 "Finland"=>"Helsinki", "France" => "Paris",
                 "Slovakia"=>"Bratislava", "Slovenia"=>"Ljubljana",
@@ -15,13 +12,8 @@
                 "Hungary"=>"Budapest", "Latvia"=>"Riga","Malta"=>"Valetta",
                 "Austria" => "Vienna", "Poland"=>"Warsaw") ;
 
-    asort($ceu) ;
-   
-     foreach($ceu as $country => $capital)
-      {
-     	  echo "<pre>";
-        echo "The capital of $country is $capital";
-        echo "</pre>";
-      }
-
-?>
+asort($ceu) ;   
+foreach($ceu as $country => $capital)
+{
+  echo "The capital of $country is $capital \n";
+}

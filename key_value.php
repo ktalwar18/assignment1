@@ -13,6 +13,6 @@
   }
 
     $colors = array('c1'=>'Red','c2'=>'Green','c3'=>'Black');
-    echo "<pre>";
+    // echo "<pre>";
     print_r(array_1st_element($colors));
 ?>

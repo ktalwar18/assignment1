@@ -1,14 +1,4 @@
-<!-- Write a function to sort an array -->
-
-<?php
-   
-   $numbers = array(4, 6, 2, 22, 11);
-   sort($numbers);
-
-   $arrlength = count($numbers);
-   for($x = 0; $x < $arrlength; $x++)
-    {
-      echo $numbers[$x];
-      echo "<br>";
-    }
-?>
+<?php   
+$numbers = array(4, 6, 2, 22, 11);
+sort($numbers);
+print_r($numbers);
